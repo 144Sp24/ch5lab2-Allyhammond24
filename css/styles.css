@@ -5,7 +5,7 @@ File Name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul {
+body, header, nav, main, footer, img, h1, h3,ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -44,12 +44,13 @@ img {
 
 /*Style rules for header area*/
 header {
-    
+    text-align: center;
 }
 
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
+
 }
 
 nav ul {
@@ -65,6 +66,7 @@ nav li {
     font-size: 1.5em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
+    
 }
 
 nav li a {
@@ -74,17 +76,16 @@ nav li a {
     text-decoration: none;
 }
 
-/
 /* Style rules for main content */
 main {
     padding: 2%;
     font-family: Verdana, Arial, sans-serif;
 }
 
+
 main p {
     font-size: 1.25em;
 }
-
 
 main h3 {
     padding-top: 2%;
