@@ -23,7 +23,7 @@ img {
 /*Style rules for mobile veiwport*/
 
 /*Style rules to show mobile class and hide tab-desk class*/
-.mobile{
+.mobile { 
     display: block;
 }
 .moblie h1 {
@@ -50,12 +50,11 @@ header {
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
-
-}
+   }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
+    text-align:center;
 }
 
 nav li {
@@ -66,7 +65,6 @@ nav li {
     font-size: 1.5em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
-    
 }
 
 nav li a {
